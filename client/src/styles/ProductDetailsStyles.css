@@ -1,0 +1,45 @@
+.product-details {
+    margin-top: 100px !important;
+  }
+  .product-details-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .product-details-info h6 {
+    margin-bottom: 20px !important;
+  }
+  .similar-products .card {
+    background-color: rgba(173, 131, 131, 0.335);
+    width: 20rem;
+  }
+  .similar-products .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .similar-products .card-price {
+    background-color: rgb(31, 31, 107);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .similar-products button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .similar-products .card-text {
+    color: rgb(87, 79, 79);
+  }
+  .similar-products .card img:hover {
+    transform: scale(0.9);
+    transform-origin: 15px;
+  }
+  .similar-products .card-img-top {
+    height: 300px !important;
+  }
+    
