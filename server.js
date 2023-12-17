@@ -1,6 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
-import colors from "colors"
+import colors from "colors";
 import morgan from "morgan";
 import connectDB from "./config/db.js";
 import authRoute from "./routes/authRoute.js";
@@ -16,8 +16,8 @@ dotenv.config();
 connectDB();
 
 // esmodule fix
-const __filename = fileURLToPath(import.meta.url)
-
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 // rest object
 const app = express();
 
